@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30803.129
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimerApi", "PrimerApi\PrimerApi.csproj", "{6D7E4FF2-1522-48E4-AB5D-44705179ED75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimerApi", "PrimerApi\PrimerApi.csproj", "{6D7E4FF2-1522-48E4-AB5D-44705179ED75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreFundamentals", "NetCoreFundamentals\NetCoreFundamentals.csproj", "{9FED0CA3-FA27-4CB0-860F-75911D90F022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreFundamentals", "NetCoreFundamentals\NetCoreFundamentals.csproj", "{9FED0CA3-FA27-4CB0-860F-75911D90F022}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IHostedServiceDemo", "IHostedServiceDemo\IHostedServiceDemo.csproj", "{AD21C348-9E85-4B03-B186-EE94E5BD78DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourcesManipulationFundamentals", "ResourcesManipulationFundamentals\ResourcesManipulationFundamentals.csproj", "{B29F23A1-1F78-4D1A-9C0F-5D575CE2ACC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationFundamentals", "ConfigurationFundamentals\ConfigurationFundamentals.csproj", "{3FFEE935-B1C7-4C8A-8BD4-A61E5B2EC41E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityFundamentals", "SecurityFundamentals\SecurityFundamentals.csproj", "{CC087B94-7C15-4A12-8535-7AE21D530341}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{9FED0CA3-FA27-4CB0-860F-75911D90F022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FED0CA3-FA27-4CB0-860F-75911D90F022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FED0CA3-FA27-4CB0-860F-75911D90F022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD21C348-9E85-4B03-B186-EE94E5BD78DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD21C348-9E85-4B03-B186-EE94E5BD78DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD21C348-9E85-4B03-B186-EE94E5BD78DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD21C348-9E85-4B03-B186-EE94E5BD78DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29F23A1-1F78-4D1A-9C0F-5D575CE2ACC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29F23A1-1F78-4D1A-9C0F-5D575CE2ACC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29F23A1-1F78-4D1A-9C0F-5D575CE2ACC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29F23A1-1F78-4D1A-9C0F-5D575CE2ACC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFEE935-B1C7-4C8A-8BD4-A61E5B2EC41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFEE935-B1C7-4C8A-8BD4-A61E5B2EC41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFEE935-B1C7-4C8A-8BD4-A61E5B2EC41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFEE935-B1C7-4C8A-8BD4-A61E5B2EC41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC087B94-7C15-4A12-8535-7AE21D530341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC087B94-7C15-4A12-8535-7AE21D530341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC087B94-7C15-4A12-8535-7AE21D530341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC087B94-7C15-4A12-8535-7AE21D530341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
